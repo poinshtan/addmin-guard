@@ -1,74 +1,36 @@
-# [BDReborn TDBot v1.0](https://telegram.me/BDreborn)
+نصب سورس ورژن 4.0 بگا پلاس برپایه TeleGramBot
+➖➖➖➖➖➖➖➖➖
+نصب ربات Cli بگا پلاس
 
-*An advanced and powerful administration bot based on telegram-bot*
+〰〰〰〰〰〰〰〰〰
+وارد به مسیر [ bot/bot.lua ] بروید در لاین [23] یوزرنیم ربات هلپر و در لاین [133] ایدی سودو + ایدی ربات Api و Cli قرار دهید | به مسیر [ plugins/SPlus.lua ] بروید و در لاین  [3] ایدی سودو اصلی را قرار دهید
+〰〰〰〰〰〰〰〰〰
 
-## Installation
+cd MeGaPlus && chmod +x megaplus.sh && ./megaplus.sh install
 
-```sh
-# Let's install the bot.
-cd $HOME
-git clone https://github.com/BeyondTeam/BDReborn.git -b TDBot
-cd BDReborn
-chmod +x beyond.sh
-./beyond.sh install
-./beyond.sh config
+./megaplus.sh config
 
-# Login Cli Account
-./beyond.sh logcli
-# Login Api Bot
-./beyond.sh logapi
+./megaplus.sh logcli
 
-# Optional
-# If you do not want to use the tmux, launch your bot with screen. Example: screen ./autobd.sh
-tmux
+screen ./autotdbot.sh
+➖➖➖➖➖➖➖➖➖
+نصب ربات Helper مگا پلاس
 
-# Launch Bot
-./beyond.sh bd
-# or
-./autobd.sh
+〰〰〰〰〰〰〰〰〰
+وارد به مسیر [ Helper/bot/bot.lua ] بروید در لاین [4] توکن ربات هلپر و در لاین [5] ایدی سودو  و در لاین [168] ایدی سودو + ایدی ربات Cli و Api قرار دهید
+〰〰〰〰〰〰〰〰〰
 
-# Delete Config & Login Data
-./beyond.sh reset
-```
+cd MeGaPlus/Helper && chmod +x megaplus.sh && ./megaplus.sh install && screen ./megaplus.sh
+➖➖➖➖➖➖➖➖➖
+قبل از اتولانچ دستور زیر بزنید
 
-* * *
+killall screen && killall bash && killalll tmux
+➖➖➖➖➖➖➖➖➖
 
-## Sudo ID
-* Input your ID at line 123 in bot.lua and line 2 in tools.lua
+اتولانچ ربات Cli
 
-## Commands
+cd MeGaPlus && screen ./autotdbot.sh
+➖➖➖➖➖➖➖➖➖
+اتولانچ ربات Api
 
-* Send help in the group for get commands list.
-
-* You can use #, ! or / to begin all commands.
-
-
-
-## Special thanks to
-
-@delaram_queen
-@poinshtan88
-* * *
-
-### Support and Development
-
-* More information 
-
-… тєαм ℓσα∂єя …
-﴾ @delaram_queen ﴿
-
-… dεvεlσρεг …
-﴾ @kianfaar ﴿
-
-… sϑρρσгτ …
-﴾ @del_pvbot ﴿
-
-… λπτιsρλm bστ …
-
-... ғor rep υѕerѕ
-@Guard_Del2Bot
-@Guard_Del3Bot
-
-... ѕocιαl вoт
-@Del_SuorceBot
-@Del_LRoBot
+cd MeGaPlus/Helper && screen ./megaplus.sh
