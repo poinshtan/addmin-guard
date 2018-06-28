@@ -81,20 +81,20 @@ deltgbot() {
 mkdir $HOME/.telegram-bot; cat <<EOF > $HOME/.telegram-bot/config
 default_profile = "cli";
 cli = {
-lua_script = "$HOME/addminG/bot/bot.lua";
+lua_script = "$HOME/addmin-guard/MeGaPlus/bot/bot.lua";
 };
 EOF
 printf "\nConfig αđмłи gυαяđ™ Has Been Saved.\n"
 }
-addminG() {
+megaplus() {
 ./td/tdbot | grep -v "{"
 }
 
-addminGcli() {
+megapluscli() {
 ./td/tdbot -p cli --login --phone=${1}
 } 
 
-addminGapi() {
+megaplusapi() {
 ./td/tdbot -p cli --login --bot=${1}
 }
 
