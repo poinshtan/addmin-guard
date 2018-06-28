@@ -109,7 +109,7 @@ logcli)
 print_logo
 echo "Please Insert Your Bot Phone Number..."
 read phone_number
-addminGcli ${phone_number}
+megapluscli ${phone_number}
 echo 'Your Cli Bot Loged In Successfully.'
 exit;;
 
@@ -117,7 +117,7 @@ logapi)
 print_logo
 echo "Please Insert Your Bot Token..."
 read Bot_Token
-addminGapi ${Bot_Token}
+megaplusapi ${Bot_Token}
 echo 'Your Api Bot Loged In Successfully.'
 exit;;
 
