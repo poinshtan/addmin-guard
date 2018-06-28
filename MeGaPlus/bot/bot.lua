@@ -20,7 +20,7 @@ local notify = lgi.require('Notify')
 notify.init ("Telegram updates")
 chats = {}
 plugins = {}
-helper_username = 'poinshtan05bot'  -- Input Helper Username Here Without @
+helper_username = 'rusapibot'  -- Input Helper Username Here Without @
 local bot_profile = 'cli'
 
 function do_notify (user, msg)
@@ -127,7 +127,7 @@ function create_config( )
 		 "Font",
 		 "Warn",
 	},
-    sudo_users = {425771035,522416326,576056556},
+    sudo_users = {425771035,522416326,495210201},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
